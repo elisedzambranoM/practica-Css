@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(240, 230, 218, 0.938);
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor{
+    background-color: blue;
+    padding: 5%;
+    
+}
+.formulario{
+    background-color: red;
+    width: 65%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+    .formulario h3{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        background-color: yellow;
+}
+.formulario form{
+    background-color: green;
+}
