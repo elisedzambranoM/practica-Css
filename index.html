@@ -9,7 +9,29 @@
 </head>
 
 <body>
-    <h1>Hola Mundo</h1>
+    <h3>Datos Personales</h3>
+    <form>
+        <label>Nombre:</label>
+        <input name="Nombre">
+        <label>Password:</label>
+        <input type="password" name="" id="input" class="form-control" required="required" title="">
+        <label>Sexo:</label>
+        <input type="radio" name="genero" value="Masculino">Masculino
+        <input type="radio" name="genero" value="Femenino">Femenino
+        <label>Comida favorita:</label>
+        <input type="checkbox" name="comida" value="Hamburguesa">Hamburguesa
+        <input type="checkbox" name="comida" value="hot-dog">Hot Dog
+        <input type="checkbox" name="comida" value="helado">Helado
+        <label>Pais de Procedencia</label>
+        <select name="paisDeProcedencia">
+            <option value="Chile">Chile</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+        <Label>Mi Historia</Label>
+        <textarea name="Mensaje" rows="30" cols="30" placeholder="Hablame de ti"></textarea><br>
+        <input type="button" value="Enviar Historia">
+    </form>
 </body>
 
 </html>
